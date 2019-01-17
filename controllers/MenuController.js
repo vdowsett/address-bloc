@@ -50,4 +50,10 @@ const inquirer = require('inquirer');
     process.exit();
   }
 
+  getContactCount() {
+
+    return this.contacts.length;
+
+  }
+
  }
