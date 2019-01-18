@@ -21,7 +21,6 @@ const ContactController = require("./ContactController");
    }
 
    main() {
-    console.log(`Welcome to AddressBloc!`);
     inquirer.prompt(this.mainMenuQuestions).then((response) => {
       switch(response.mainMenuChoice){
         case "Add new contact":
@@ -64,8 +63,7 @@ const ContactController = require("./ContactController");
           this.main();
         });
       });
-    this.main();
-  }
+  };
 
   getContacts(){
     this.clear();
@@ -190,5 +188,5 @@ const ContactController = require("./ContactController");
       this.main();
     });
   };
-  
+
 };
