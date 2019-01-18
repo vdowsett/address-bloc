@@ -9,7 +9,7 @@
   "author": "Vicky Dowsett",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^5.1.0",
+    "inquirer": "^5.2.0",
     "pg": "^7.4.1",
     "pg-hstore": "^2.3.2",
     "sequelize": "^4.42.0",
@@ -17,5 +17,13 @@
   },
   "devDependencies": {
     "jasmine": "^3.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdowsett/address-bloc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vdowsett/address-bloc/issues"
+  },
+  "homepage": "https://github.com/vdowsett/address-bloc#readme"
 }
